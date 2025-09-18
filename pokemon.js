@@ -18,7 +18,7 @@ btn.addEventListener("click", async () => {
     if(nome.length === 0){
         saida.textContent = "Digite o nome do Pokemon.";
         return
-    }
+    }   
 
     saida.textContent = "Buscando...";
 

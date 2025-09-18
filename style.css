@@ -6,12 +6,18 @@ body{
     margin: 0;
     background: #0f172a;
     color: #e2e8f0;
+  
 }
 
-.box{
-    max-width: 420px;
-    margin: 40px auto;
-    padding: 16px;
+.container{
+    max-width: 900px;
+    height: 400px;
+    margin: 10px auto;
+    padding: 3px;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    gap: 100px;  
 }
 
 button{
@@ -42,4 +48,18 @@ input{
     height: 160px;
     display: block;
     margin-top: 8px;
+}
+
+.listaSugestao{
+    background-color: #0f172a;
+    padding: 5px;
+    border-radius: 8px;
+    max-width: 200px;
+    
+}
+
+.box{
+    width: 50%;
+    background-color: #0f172a;
+    padding: 16px;
 }

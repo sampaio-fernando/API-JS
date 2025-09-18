@@ -8,7 +8,8 @@
 </head>
 <body>
 
-    <main class="box">
+    <main class="container">
+        <div class="box">
         <h1>Pokédex</h1>
 
         <input
@@ -18,7 +19,25 @@
         />
         <button id="btn">Buscar</button>
         <div id="saida"></div>
-    </main>
+    </div>    
+
+   
+        <div class="listaSugestao">
+            <h3>Sugestão de pesquisa...</h3>
+            <ul class="lista" id="lista">
+               <li>bulbasaur</li>
+               <li>ivysaur</li> 
+               <li>venusaur</li> 
+               <li>charmander</li> 
+               <li>charmeleon</li> 
+               <li>charizard</li> 
+               <li>kakuna</li> 
+               <li>weedle</li> 
+
+            </ul>
+        </div>
+     </main>
+   
 <script src="pokemon.js"></script>
 </body>
 </html>
